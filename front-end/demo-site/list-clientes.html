@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Olá, mundo!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">O.S. - System</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Cadastros
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Clientes</a>
+            <a class="dropdown-item" href="#">Serviços</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Usuários</a>
+            <a class="dropdown-item" href="#">Perfil de Usuários</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Ordem de Serviços
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Lançamentos</a>
+            <a class="dropdown-item" href="#">Consultas</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+    <div class="card mt-3">
+      <div class="card-header alert-info alert">
+        <h1>Listagem de Clientes</h1>
+      </div>
+      <div class="card-body">
+
+        <div class="alert alert-success" role="alert">
+          Registro excluído com sucesso...
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Ocorreu um erro ao salvar o registro...
+        </div>
+
+        <div class="row">
+          <div class="form-group col-2">
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Todos</option>
+              <option>Código</option>
+              <option>Descrição</option>
+            </select>
+          </div>
+          <div class="form-group col-10">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Digite a sua pesquisa" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <table class="table table-stripped table-hover">
+          <thead>
+            <tr>
+              <th>CPF</th>
+              <th>Nome Completo</th>
+              <th>Data Nasc.</th>
+              <th>Ativo</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="#">007.007.001-11</a></td>
+              <td>JOAO DA SILVA</td>
+              <td>10/01/2001</td>
+              <td>Sim</td>
+              <td>
+                <button class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-close"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-11">
+            <nav aria-label="Navegação de página exemplo">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript (Opcional) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
